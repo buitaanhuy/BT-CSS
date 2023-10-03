@@ -1,0 +1,61 @@
+
+body {
+	margin: 70px 0 0;
+    border: 2px dashed blue;
+	background: #E1E0DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+}
+.text{
+    margin: 10px;
+    overflow: scroll;
+	overflow: hidden;
+}
+
+.text p{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+.container {
+	margin: 0 auto;
+	padding: 25px;
+	width: 80%;
+	background: #FFF
+}
+
+#menu {
+	background: red;
+    width: 100%;
+	display: flex;
+	border: 1px solid blue;
+}
+
+
+
+#menu li{
+    line-height: initial;
+	list-style: none;
+	padding: 10px;
+	
+}
+
+.even {
+	background: green;
+    
+}
+
+.odd {
+	background: blue;
+    
+}
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    
+}
+

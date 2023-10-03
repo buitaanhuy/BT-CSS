@@ -1,0 +1,55 @@
+
+body {
+	margin: 70px 0 0;
+    border: 2px dashed blue;
+	background: #E1E0DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px;
+	width: 500px;
+	position: relative;
+	background: #FFF;
+	overflow: hidden;
+}
+
+#first {
+	background: red;
+}
+
+#second {
+	background: green;
+    
+}
+
+#third {
+	background: blue;
+    
+}
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    
+}
+
+#first{
+	position: absolute;
+	right: 175px;
+}
+/* 
+#second{
+	position: absolute;
+	top: 0;
+}
+
+#third{
+	position: absolute;
+} */

@@ -1,0 +1,51 @@
+
+body {
+	margin: 70px 0 0;
+    border: 2px dashed gray;
+	background: #E1E0DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+    
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px;
+	width: 80%;
+	background: #FFF;
+	position: relative;
+}
+
+#first {
+	background: red;
+	position: absolute;
+	right: 20px;
+}
+
+#second {
+	background: green;
+}
+
+#third {
+	background: blue;
+}
+
+#child{
+    background: yellow;
+    width: 70px;
+    height: 70px;
+	position: absolute;
+	top: 10px;
+	left: 9px;
+}
+
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+

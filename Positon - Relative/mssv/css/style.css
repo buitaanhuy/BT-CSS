@@ -1,0 +1,45 @@
+
+body {
+	margin: 70px 0 0;
+	background: #E1E1DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px;
+	width: 351px;
+	background: #FFF;
+	position: relative;
+}
+
+#first {
+	background-color: red;
+}
+
+#second {
+	background-color: green;
+}
+
+#third {
+	background-color: blue;
+}
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+.first{
+}
+
+#second{
+	position: absolute;
+	right: 7.5%;
+	top: 100px;
+}

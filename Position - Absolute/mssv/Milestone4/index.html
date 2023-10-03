@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Positioning</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+	<div class="text">
+            <ul id="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            
+		<p style="clear:left;">
+                Với giá trị <b>Absolute</b>, ta sẽ thấy rõ nó dựa vào <b>Positioned Element</b> là cha gần nhất của nó để làm mốc định vị trí. Trường hợp ví dụ này, menu (đỏ) đang thấy cha "Positioned Element" gần nhất chính là viewport, dù cha về cấu trúc của nó chính là thẻ div có class là "text".
+            </p>
+            <p>
+                Tuy nhiên, cần phải lưu ý là khi ta cuộn (scroll) để xem nội dung bên dưới thì Element có position là "absolute" sẽ bị mất đi theo. Khi ta muốn đóng băng, cố định luôn luôn hiển thị vị trí đó so với viewport thì phải tìm hiểu video về "Fixed" của property <b>position</b>. Hãy tự tay cuộn (scroll) chuột xuống để kiểm tra menu của mình còn thấy không nhé.
+            </p>
+	</div>
+    <div class="container">
+        <div class="odd">Lẻ</div>
+		<div class="even">Chẵn</div>
+        <div class="odd">Lẻ</div>
+		<div class="even">Chẵn</div>
+        <div class="odd">Lẻ</div>
+		<div class="even">Chẵn</div>
+        <div class="odd">Lẻ</div>
+		<div class="even">Chẵn</div>
+		
+    </div>
+</body>
+</html>
