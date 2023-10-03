@@ -1,0 +1,76 @@
+
+body {
+	margin: 70px 0 0;
+	background: #E1E1DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px;
+	width: 80%;
+	background: #FFF;
+	margin-top: 100px;
+}
+
+#first {
+	background: #FF6347;
+}
+
+#second {
+	background: #87CEEB;
+    
+}
+
+#third {
+	background: #20B2AA;
+}
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+
+
+#fixed{
+    width: 100%;
+    height: 100px;
+    background: black;
+    padding: 0;
+    margin: 0;
+	position: fixed;
+	top: 0;
+}
+
+#fixed li{
+    float: left;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+.clearleft{
+    clear: left;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+#four{
+    background: purple;
+}
+
+#five{
+    background: green;
+}
+
+#six{
+    background: pink;
+}

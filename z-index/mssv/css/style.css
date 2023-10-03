@@ -1,0 +1,48 @@
+
+body {
+	margin: 70px 0 0;
+	background: #E1E1DD;
+	color: #FFF;
+	font: normal 1.4em sans-serif;
+}
+
+.container {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px;
+	width: 80%;
+	background: #FFF;
+}
+
+#first {
+	background: #FF6347;
+    position: relative;
+    top: 100px;
+	z-index: 3;
+}
+
+#second {
+	background: #87CEEB;
+    position: relative;
+    top: -20px;
+    left: 110px;
+    z-index: 2;
+}
+
+#third {
+	background: #20B2AA;
+    position: relative;
+    top: -100px;
+    left: 20px;
+	z-index: 1;
+}
+
+.container div {
+	width: 150px;
+	height: 150px;
+	text-align: center;	
+	line-height: 150px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+
